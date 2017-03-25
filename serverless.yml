@@ -5,13 +5,13 @@ frameworkVersion: "<=1.6.1"
 provider:
   name: aws
   runtime: nodejs4.3
-  state: dev
+  stage: dev
   region: us-east-1
   environment:
     CLIENT_ID: '159744788436.160394544374'
     CLIENT_SECRET: e74914371d086c53f5191e1a1eabd69a
-    INSTALL_SUCCESS_URL: http://google.com
-    INSTALL_ERROR_URL: http://https://www.youtube.com/watch?v=oHg5SJYRHA0
+    INSTALL_SUCCESS_URL: https://www.youtube.com/watch?v=-syRXgUAxSs
+    INSTALL_ERROR_URL: https://www.youtube.com/watch?v=oHg5SJYRHA0
 
 functions:
   install:

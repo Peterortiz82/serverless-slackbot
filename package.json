@@ -1,0 +1,15 @@
+{
+  "name": "serverless_slack_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "install.js",
+  "dependencies": {
+    "node-fetch": "^1.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
